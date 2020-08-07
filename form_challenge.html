@@ -1,0 +1,64 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+<main id="main">
+    <h1 id="title">Form Me Up</h1>
+    <p id="description">Thank you for filling out this form for no purpose what-so-ever.</p>
+    
+<form id="survey-form">
+ 
+    <label id="name-label" for="name">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="e.g. John Smith" required><br>
+  <label id="email-label" for="email">Email</label><br>
+  <input type="email" id="email" name="emial" placeholder="e.g. youremail@email.com" required><br>
+    <label id="number-label" for="number">Age</label><br>
+  <input type="number" id="number" name="number" min="1" max="130" placeholder="e.g. 25"><br>
+   
+    <label for="dropdown">Choose your favourite:</label><br>
+<select name="dropdown" id="dropdown">
+  <option value="cake">Cake</option>
+  <option value="pie">Pie</option>
+  <option value="torte">Torte</option>
+  <option value="icecream">Ice Cream</option>
+</select><br>
+
+    <label for="radio">Choose one that best describes you:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+    
+    <p>Describe yourself by selecting any of the following attributes that describe you:</p>
+
+<div>
+  <input type="checkbox" id="hottempered" name="hottempered" value="hottempered">
+  <label for="hottempered">Hot Tempered</label>
+</div>
+
+<div>
+  <input type="checkbox" id="cranky" name="cranky" value="cranky">
+  <label for="cranky">Cranky</label>
+</div>
+    
+    <div>
+  <input type="checkbox" id="pleasant" name="pleasant" value="pleasant">
+  <label for="pleasant">Pleasant</label>
+</div>
+       <div>
+  <input type="checkbox" id="difficult" name="difficult" value="difficult">
+  <label for="difficult">Difficult</label>
+</div>
+       <div>
+  <input type="checkbox" id="other" name="other" value="other">
+  <label for="other">Other</label>
+</div>
+<p>Additional comments</p>
+    <textarea id="textarea" name="textarea" rows="4" cols="50">
+</textarea><br><br>
+    
+    <input type="submit" value="Submit" id="submit">
+    </form>
+    </main>
+</html>
